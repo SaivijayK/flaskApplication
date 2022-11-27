@@ -6,10 +6,6 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-# @app.route('/additionOne/<int a>/<int b>')
-# def additionOne(a,b):
-#     c = a+b
-#     return str(c)
 
 @app.route('/addition')
 def addition():
